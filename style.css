@@ -1,13 +1,35 @@
+:root {
+    --primary: #c500cc
+}
+
+
 .Latitude{
     color: white;
-    background-color: #c500cc;
+    background-color: var(--primary);
     padding: 15px;
+}
 
+/* .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  } */
+
+
+body{
+    /* background: rgb(100, 100, 100); */
+    background: black;
+}
+.container{
+background: rgb(214, 214, 214);
+margin: 80px;
 }
 
 @media(max-width: 992px)
 {
-    .fun{
-        border-color: #c500cc;
+#fun{
+        background-color: var(--primary) !important;
     }
 }
