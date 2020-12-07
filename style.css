@@ -1,5 +1,5 @@
 :root {
-    --primary: #c500cc;
+    --primary: #0300cc;
     --secondary: rgb(214, 214, 214);
 }
 
@@ -75,6 +75,10 @@ height: 650px;
 .vis{
     width:175px;
     height:175px;
+}
+
+.currentvis{
+    border: 3px solid var(--primary);    
 }
 
 p{

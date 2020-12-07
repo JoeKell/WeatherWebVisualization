@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta charset="UTF-8">
-    <title>Weather Data</title>
+    <title>Max Temp vs Lat</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,7 +11,7 @@
 
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="fun">
     <!-- This is the branded Label in the upper left -->
-    <a class="Latitude" class="navbar-brand" href="#"><b>Latitude</b></a>
+    <a class="Latitude" class="navbar-brand" href="https://joekell.github.io/WeatherWebVisualization/"><b>Latitude</b></a>
     <!-- Hamburger Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
                     Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="https://joekell.github.io/WeatherWebVisualization/maxtemp">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <a class="dropdown-item" href="#">Something else here</a>
                 </div>
@@ -43,15 +43,9 @@
 
 <body>
   <div class="container">
-    <h1>Summary: Latitude Vs. X</h1>
+    <h1>Max Temperature</h1>
     <hr>
-    <img src="Resources/assets/images/Fig1.png" class="left" style="width:250px;height:250px;">
-    <p>
-      The purpose of this project was to analyze how weather changes with relation 
-      to distance from the equator. The first step of this projects was to generate 
-      a lits of 500 cities and use the OpenWeather API to retreive the weather information.
-    </p>
-    <br>
+    <img src="Resources/assets/images/Fig1.png" style="width:500px;height:450px;">
     <br>
     <p>
       We used Matplotlib to create scatter plots that look at the relationship 
@@ -68,8 +62,8 @@
     </h1>
     <hr>
     <div class="row">
-      <a href="#news">
-        <img src="Resources/assets/images/Fig1.png" class="vis">
+      <a href="https://joekell.github.io/WeatherWebVisualization/maxtemp">
+        <img src="Resources/assets/images/Fig1.png" class="vis" class="activevis">
       </a>
       <a href="#contact">
         <img src="Resources/assets/images/Fig2.png" class="vis">
