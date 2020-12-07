@@ -78,7 +78,14 @@ height: 650px;
 }
 
 .currentvis{
+    width:175px;
+    height:175px;
     border: 3px solid var(--primary);    
+}
+
+.mainfig{
+    width:615px;
+    height:350px;
 }
 
 p{
@@ -106,6 +113,11 @@ body{
     left: 0px;
     width: 100%;
   }
+  .mainfig{
+    width:500px;
+    height:350px;
+}
+
 
 .vis{
     float: left;
