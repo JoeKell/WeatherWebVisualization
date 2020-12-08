@@ -3,6 +3,17 @@
     --secondary: rgb(214, 214, 214);
 }
 
+table { 
+    border-collapse:collapse;
+}
+
+table tr { 
+    border-bottom: 1px solid #000;
+}
+
+.alt{
+    background-color: rgb(189, 189, 189);
+}
 
 .Latitude{
     color: white;
