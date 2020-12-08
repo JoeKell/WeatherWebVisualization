@@ -15,18 +15,30 @@ h1{
   color: var(--primary);
 }
 
+h3{
+    color: var(--primary);
+    padding: 20px;
+  }
+
 body{
-    /* background: rgb(100, 100, 100); */
     background: black;
 }
 
 .container{
-background:  var(--secondary)/*yellow*/; 
+background:  var(--secondary); 
 margin: 70px;
 width: 650px;
 height: 650px;
 
 }
+
+.compcont{
+    background:  var(--secondary); 
+    margin: 70px;
+    width: 1100px;
+    height: 1350px;
+    
+    }
 
 
   /* The side navigation menu */
@@ -77,6 +89,11 @@ height: 650px;
     height:175px;
 }
 
+.compvis{
+    width:500px;
+    height:500px;
+}
+
 .currentvis{
     width:175px;
     height:175px;
@@ -123,5 +140,12 @@ body{
     float: left;
 }
 
+.compcont{
+    background:  var(--secondary); 
+
+    width: 572px;
+
+    
+    }
 
 }
